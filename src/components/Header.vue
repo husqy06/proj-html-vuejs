@@ -1,16 +1,29 @@
 <template>
   <header>
+    <img src="../assets/img/construction_logo.png">
 
+    <ul>
+      <li v-for="(item, index) in navItem" :key="index">
+        <a :href="item.href">{{ item.text }}</a>
+      </li>
+      <li><span class="small-botton">get quote</span></li>
+    </ul>
   </header>
 </template>
 
 <script>
+import { navItem } from '../assets/data.js'
+
 export default {
   name: 'Header',
+  data() {
+    return {
+      navItem,
+    }
+  }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+@import '../style/general.scss';
 </style>

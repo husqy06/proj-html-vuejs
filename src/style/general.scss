@@ -1,0 +1,40 @@
+/* colors */
+$brand-color: #FED23F;
+/* / colors */
+
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.small-botton {
+    text-transform: uppercase;
+    background-color: $brand-color;
+    padding: 10px 15px;
+}
+/* / common */
+
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        text-transform: uppercase;
+        li{
+            margin: 0 10px;
+        }
+    } 
+}
+/* / header */
