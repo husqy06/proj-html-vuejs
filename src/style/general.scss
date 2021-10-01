@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /* colors */
-$brand-color: #FED23F;
+$brand-color: #F9D03F;
+$botton-gray: #292D32;
+$section-paragraph: #383E42;
 /* / colors */
 
 /* common */
@@ -7,17 +11,39 @@ $brand-color: #FED23F;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
 ul {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
+
 .small-botton {
+    display: inline-block;
     text-transform: uppercase;
     background-color: $brand-color;
-    padding: 10px 15px;
+    padding: 10px 30px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.big-botton {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin: 10px 5px;
+    background-color: $brand-color;
+    cursor: pointer;
+}
+
+#botton-black {
+    background-color: $botton-gray;
+    color: white;
 }
 /* / common */
 
@@ -28,13 +54,158 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 7vw;
+    padding: 0 5vw;
+
+    .logo {
+        height: 65%;
+    }
 
     ul {
         display: flex;
+        height: 100%;
         text-transform: uppercase;
-        li{
-            margin: 0 10px;
+
+        li {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin: 0 20px;
+            font-size: 12px;
+
+            a {
+                color: black;
+                font-weight: 400;
+
+                &:hover {
+                    color: #F9D03F;
+                    font-weight: bold;
+                }
+            }
+
+            .current-link {
+                position: relative;
+                color: $brand-color;
+                font-weight: bold;
+                height: 100%;
+                display: flex;
+                align-items: center;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: -12px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border-left: 12px solid transparent;
+                    border-right: 12px solid transparent;
+                    border-top: 12px solid white;
+                }
+            }
         }
     } 
 }
 /* / header */
+
+/* main */
+main {
+
+    .jumbotron {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 40vw;
+        background-image: url('../assets/img/home-slider-62528242.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .jumbo-title {
+            font-weight: bold;
+            font-size: 45px;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        .jumbo-subtitle {
+            font-size: 20px;
+            font-weight: 500;
+            color: $brand-color;
+            margin: 20px 0;
+        }
+    }
+
+    .quote-section {
+        height: 8vw;
+        background-color: $brand-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        .quote-botton {
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 7vw 0;
+    }
+    
+    .section-title {
+        font-size: 25px;
+        display: block;
+    }
+    
+    .section-line {
+        width: 160px;
+        border-bottom: 2px solid $brand-color;
+        margin: 20px;
+    }
+    
+    .section-paragraph {
+        color: $section-paragraph;
+        text-align: center;
+        font-size: 12px;
+        max-width: 700px;
+        line-height: 30px;
+        margin: 10px;
+    }
+    
+    .section-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0;
+    
+        .section-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 300px;
+            margin: 20px;
+        }
+    }
+    .custom-card-1 {
+        padding: 20px 20px 10px 20px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    .custom-icon-1 {
+        font-size: 20px;
+        border-radius: 50%;
+        padding: 12px 17px;
+        margin-bottom: 10px;
+        color: gray;
+        border: 1px solid gray;
+    }
+}
+/* / main */
