@@ -29,6 +29,10 @@ a {
     text-decoration: none;
 }
 
+.logo {
+    height: 60px;
+}
+
 .small-botton {
     display: inline-block;
     text-transform: uppercase;
@@ -52,6 +56,12 @@ a {
     background-color: $botton-gray;
     color: white;
 }
+
+.custom-subtitle {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
 /* / common */
 
 
@@ -63,10 +73,6 @@ header {
     align-items: center;
     height: 7vw;
     padding: 0 5vw;
-
-    .logo {
-        height: 65%;
-    }
 
     ul {
         display: flex;
@@ -444,12 +450,6 @@ main {
         background-image: url('../assets/img/about-call-to-action-cut-57862405.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-
-        .custom-subtitle {
-            color: white;
-            font-size: 12px;
-            font-weight: bold;
-        }
     }
 
     .custom-number-m {
@@ -480,3 +480,137 @@ main {
     }    
 }
 /* / main */
+
+/* footer */
+.footer-divider {
+    width: 100%;
+    height: 10px;
+    background-color: #3F3F3F;
+}
+
+.footer-top {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px 0;
+
+    .footer-card {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 30px;
+            color: gray;
+            margin: 20px 0;
+        }
+
+        .footer-text {
+            font-size: 12px;
+            color: gray;
+        }
+
+        .footer-section-title {
+            color: $brand-color;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 13px;
+            margin:  0 0 20px 0;
+        }
+
+        .map {
+            width: 260px;
+        }
+
+        .contact-info {
+            display: flex;
+            color: gray;
+            font-size: 12px;
+            span {
+                margin: 0 0 20px 10px;
+            }
+
+            .twitter-img {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+        }
+        .custom-contact-info {
+            display: flex;
+            justify-content: space-between;
+
+            .fa-twitter {
+                font-size: 15px;
+            }
+        }
+
+        .custom-paragraph-2 {
+            color: white;
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 14px;
+            margin: 0 0 0 10px;
+
+            a {
+                color: #4682B4;
+            }
+        }
+
+        #twitter-account {
+            display: block;
+            color: white;
+            margin:  0 0 10px 10px;
+        }
+        
+        .coupon {
+            margin: 30px 0 10px 10px;
+        }
+
+        .coupon-icon {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 10px;
+            font-size: 10px;
+
+            div {
+                .fa-heart {
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+                .fa-sign-out-alt {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 9px;
+    background-color: black;
+    height: 8vh;
+    color: gray;
+
+    .fa-facebook-f,
+    .fa-twitter,
+    .fa-youtube,
+    .fa-instagram {
+        font-size: 15px;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
+/* / footer */
