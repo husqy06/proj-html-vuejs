@@ -8,6 +8,18 @@
       </li>
       <li><span class="small-botton">get quote</span></li>
     </ul>
+
+    <div class="small-header">
+      <i class="fas fa-bars"></i>
+
+      <div class="small-nav">
+        <ul>
+          <li v-for="(item, index) in navItem" :key="index">
+            <a :href="item.href" :class="item.href == 'current' ? 'current-link' : ''">{{ item.text }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </header>
 </template>
 

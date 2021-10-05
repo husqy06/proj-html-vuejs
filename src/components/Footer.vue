@@ -82,7 +82,7 @@
     <section class="footer-bottom">
       <span>COPYRIGHT 2012 - 2015 AVADA THEME BY THEME FUSION | ALL RIGHTS RESERVED | POWERED BY WORDPRESS</span>
 
-      <div>
+      <div class="footer-icon-container">
         <i class="fab fa-facebook-f"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-youtube"></i>

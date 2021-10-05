@@ -3,7 +3,7 @@
     <section class="jumbotron">
       <span class="jumbo-title">building inspiring spaces</span>
       <span class="jumbo-subtitle">We Build Inspiring Residential & Commercial Spaces</span>
-      <div>
+      <div class="jumbo-botton">
         <span class="big-botton" id="botton-black">exolore recent work</span>
         <span class="big-botton">get a quote today</span>
       </div>
@@ -120,19 +120,22 @@
       <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi aperiam dolorem maxime blanditiis voluptatum. Similique fuga vitae culpa eum odio minima?</p>
 
       <div class="section-card-container">
+
         <div class="flip-card flip-card-1">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="../assets/img/project2-featured-15013609.jpg" alt="" srcset="">
-            </div>
-            <div class="flip-card-back">
-              <div class="back-icon-container">
-                <span class="back-icon"><i class="fas fa-link"></i></span>
-                <span class="back-icon"><i class="fas fa-search"></i></span>
+          <div class="flip-card flip-card-1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/img/project2-featured-15013609.jpg" alt="" srcset="">
               </div>
-              
-              <span class="back-title">Florida Heath Facility</span>
-              <span class="back-subtitle">Commercial</span>
+              <div class="flip-card-back">
+                <div class="back-icon-container">
+                  <span class="back-icon"><i class="fas fa-link"></i></span>
+                  <span class="back-icon"><i class="fas fa-search"></i></span>
+                </div>
+                
+                <span class="back-title">Florida Heath Facility</span>
+                <span class="back-subtitle">Commercial</span>
+              </div>
             </div>
           </div>
         </div>
@@ -178,7 +181,7 @@
 
       <div class="section-view">
         <span class="view-divider"></span>
-        <span>view all projects</span>
+        <span class="view-text">view all projects</span>
         <span class="view-divider"></span>
       </div>
     </section>
@@ -308,7 +311,7 @@
 
       <div class="section-view">
         <span class="view-divider"></span>
-        <span>view all articles</span>
+        <span class="view-text">view all articles</span>
         <span class="view-divider"></span>
       </div>
     </section>
