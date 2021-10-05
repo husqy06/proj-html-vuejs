@@ -11,7 +11,7 @@
 
     <section class="quote-section">
       <span class="section-title">Do You Have A Construction Project We Can Help With?</span>
-      <span class="small-botton quote-botton" id="botton-black">get a free quote</span>
+      <span class="small-botton" id="quote-botton">get a free quote</span>
     </section>
 
     <section class="main-section">
@@ -20,28 +20,68 @@
       <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi aperiam dolorem maxime blanditiis voluptatum. Similique fuga vitae culpa eum odio minima?</p>
 
       <div class="section-card-container">
-        <div class="section-card custom-card-1">
-          <span class="custom-icon-1"><i class="far fa-building"></i></span>
-          <span class="section-title">Buildings</span>
-          <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+        <div class="flip-card custom-card-1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="custom-icon-1"><i class="far fa-building"></i></span>
+                <span class="section-title">Buildings</span>
+                <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+              </div>
+              <div class="flip-card-back">
+                <span class="custom-title-3">ARTFULLY CRAFTED</span>
+                <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+                
+                <span class="small-botton" id="sm-bt-custom">get quote</span>
+              </div>
+            </div>
         </div>
 
-        <div class="section-card custom-card-1">
-          <span class="custom-icon-1"><i class="fas fa-sync"></i></span>
-          <span class="section-title">Renovate</span>
-          <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+        <div class="flip-card custom-card-1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="custom-icon-1"><i class="fas fa-sync"></i></span>
+                <span class="section-title">Renovate</span>
+                <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+              </div>
+              <div class="flip-card-back">
+                <span class="custom-title-3">ARTFULLY CRAFTED</span>
+                <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+                
+                <span class="small-botton" id="sm-bt-custom">get quote</span>
+              </div>
+            </div>
         </div>
 
-        <div class="section-card custom-card-1">
-          <span class="custom-icon-1"><i class="fas fa-home"></i></span>
-          <span class="section-title">Construct</span>
-          <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+        <div class="flip-card custom-card-1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="custom-icon-1"><i class="fas fa-home"></i></span>
+                <span class="section-title">Construct</span>
+                <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+              </div>
+              <div class="flip-card-back">
+                <span class="custom-title-3">ARTFULLY CRAFTED</span>
+                <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+                
+                <span class="small-botton" id="sm-bt-custom">get quote</span>
+              </div>
+            </div>
         </div>
 
-        <div class="section-card custom-card-1">
-          <span class="custom-icon-1"><i class="fas fa-truck"></i></span>
-          <span class="section-title">Exclusive</span>
-          <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+        <div class="flip-card custom-card-1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <span class="custom-icon-1"><i class="fas fa-truck"></i></span>
+                <span class="section-title">Exclusive</span>
+                <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+              </div>
+              <div class="flip-card-back">
+                <span class="custom-title-3">ARTFULLY CRAFTED</span>
+                <p class="section-paragraph">Quis ipsum dolor sit amet consectetur adipisicing elit. Commodi aperiam blandaditiis.</p>
+                
+                <span class="small-botton" id="sm-bt-custom">get quote</span>
+              </div>
+            </div>
         </div>
       </div>
     </section>
@@ -80,16 +120,59 @@
       <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi aperiam dolorem maxime blanditiis voluptatum. Similique fuga vitae culpa eum odio minima?</p>
 
       <div class="section-card-container">
-        <div class="section-card">
-          <img src="../assets/img/project2-featured-15013609.jpg" alt="" srcset="">
+        <div class="flip-card flip-card-1">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="../assets/img/project2-featured-15013609.jpg" alt="" srcset="">
+            </div>
+            <div class="flip-card-back">
+              <div class="back-icon-container">
+                <span class="back-icon"><i class="fas fa-link"></i></span>
+                <span class="back-icon"><i class="fas fa-search"></i></span>
+              </div>
+              
+              <span class="back-title">Florida Heath Facility</span>
+              <span class="back-subtitle">Commercial</span>
+            </div>
+          </div>
         </div>
 
-        <div class="section-card">
-          <img src="../assets/img/project1-featured-294276386.jpg" alt="" srcset="">
+        <div class="flip-card flip-card-1">
+          <div class="flip-card flip-card-1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/img/project1-featured-294276386.jpg" alt="" srcset="">
+              </div>
+              <div class="flip-card-back">
+                <div class="back-icon-container">
+                  <span class="back-icon"><i class="fas fa-link"></i></span>
+                  <span class="back-icon"><i class="fas fa-search"></i></span>
+                </div>
+                
+                <span class="back-title">Florida Heath Facility</span>
+                <span class="back-subtitle">Commercial</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="section-card">
-          <img src="../assets/img/project3-featured-189023420.jpg">
+        <div class="flip-card flip-card-1">
+          <div class="flip-card flip-card-1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/img/project3-featured-189023420.jpg" alt="" srcset="">
+              </div>
+              <div class="flip-card-back">
+                <div class="back-icon-container">
+                  <span class="back-icon"><i class="fas fa-link"></i></span>
+                  <span class="back-icon"><i class="fas fa-search"></i></span>
+                </div>
+                
+                <span class="back-title">Florida Heath Facility</span>
+                <span class="back-subtitle">Commercial</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -149,7 +232,23 @@
 
       <div class="section-card-container">
         <div class="section-card">
-          <img src="../assets/img/blog-post-134132600.jpg" alt="">
+          <div class="flip-card flip-card-2">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/img/blog-post-134132600.jpg" alt=""> 
+              </div>
+              <div class="flip-card-back">
+                <div class="back-icon-container">
+                  <span class="back-icon"><i class="fas fa-link"></i></span>
+                  <span class="back-icon"><i class="fas fa-search"></i></span>
+                </div>
+                
+                <span class="back-title">Florida Heath Facility</span>
+                <span class="back-subtitle">Commercial</span>
+              </div>
+            </div>
+          </div>
+
           <div class="card-description">
             <span class="custom-title-3">Redeveloping Florida's Remote Southern Coast</span>
             <span class="date-section-5">December 7th, 2015</span>
@@ -158,15 +257,47 @@
         </div>
 
         <div class="section-card">
-          <img src="../assets/img/blog-post-92486644.jpg" alt="">
+          <div class="flip-card flip-card-2">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/img/blog-post-92486644.jpg" alt=""> 
+              </div>
+              <div class="flip-card-back">
+                <div class="back-icon-container">
+                  <span class="back-icon"><i class="fas fa-link"></i></span>
+                  <span class="back-icon"><i class="fas fa-search"></i></span>
+                </div>
+                
+                <span class="back-title">Florida Heath Facility</span>
+                <span class="back-subtitle">Commercial</span>
+              </div>
+            </div>
+          </div>
+
           <div class="card-description">
             <span class="custom-title-3">How We Manage Large Construction Projects</span>
             <span class="date-section-5">December 7th, 2015</span>
             <p class="section-paragraph">Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim, Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed</p>
           </div>
         </div>
+
         <div class="section-card">
-          <img src="../assets/img/blog-post-332773904.jpg" alt="">
+          <div class="flip-card flip-card-2">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="../assets/img/blog-post-332773904.jpg" alt=""> 
+              </div>
+              <div class="flip-card-back">
+                <div class="back-icon-container">
+                  <span class="back-icon"><i class="fas fa-link"></i></span>
+                  <span class="back-icon"><i class="fas fa-search"></i></span>
+                </div>
+                
+                <span class="back-title">Florida Heath Facility</span>
+                <span class="back-subtitle">Commercial</span>
+              </div>
+            </div>
+          </div>
           <div class="card-description">
             <span class="custom-title-3">Future proofing a modern home</span>
             <span class="date-section-5">December 6th, 2015</span>
